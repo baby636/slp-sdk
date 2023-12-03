@@ -1,0 +1,129 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - semantic-release > @semantic-release/github > https-proxy-agent:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-HTTPSPROXYAGENT-469131
+        path: semantic-release > @semantic-release/github > https-proxy-agent
+    - semantic-release > @semantic-release/npm > npm > libcipm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-HTTPSPROXYAGENT-469131
+        path: >-
+          semantic-release > @semantic-release/npm > npm > libcipm > pacote >
+          make-fetch-happen > https-proxy-agent
+  SNYK-JS-LODASH-567746:
+    - nock > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: nock > lodash
+    - babel-register > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-register > lodash
+    - eslint > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > lodash
+    - semantic-release > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: semantic-release > lodash
+    - slpjs > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: slpjs > lodash
+    - eslint > inquirer > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > inquirer > lodash
+    - mocha > yargs-unparser > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: mocha > yargs-unparser > lodash
+    - babel-register > babel-core > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-register > babel-core > lodash
+    - eslint > table > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > table > lodash
+    - semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: semantic-release > @semantic-release/release-notes-generator > lodash
+    - semantic-release > @semantic-release/commit-analyzer > conventional-commits-parser > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          semantic-release > @semantic-release/commit-analyzer >
+          conventional-commits-parser > lodash
+    - babel-register > babel-core > babel-generator > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-register > babel-core > babel-generator > lodash
+    - nyc > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: nyc > istanbul-lib-instrument > @babel/traverse > lodash
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          semantic-release > @semantic-release/release-notes-generator >
+          conventional-changelog-writer > lodash
+    - babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-register > babel-core > babel-generator > babel-types > lodash
+    - nyc > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          nyc > istanbul-lib-instrument > @babel/generator > @babel/types >
+          lodash
+    - sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash
+    - babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-register > babel-core > babel-helpers > babel-template > lodash
+    - bitbox-sdk > bip32-utils > standard > eslint > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: bitbox-sdk > bip32-utils > standard > eslint > lodash
+    - bitbox-sdk > bip32-utils > standard > eslint-plugin-import > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: bitbox-sdk > bip32-utils > standard > eslint-plugin-import > lodash
+    - babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-register > babel-core > babel-helpers > babel-template >
+          babel-traverse > lodash
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument >
+          @babel/traverse > lodash
+    - bitbox-sdk > bip32-utils > standard > eslint > inquirer > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: bitbox-sdk > bip32-utils > standard > eslint > inquirer > lodash
+    - bitbox-sdk > bip32-utils > standard > eslint > table > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: bitbox-sdk > bip32-utils > standard > eslint > table > lodash
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2023-12-03T05:15:04.813Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument >
+          @babel/generator > @babel/types > lodash
